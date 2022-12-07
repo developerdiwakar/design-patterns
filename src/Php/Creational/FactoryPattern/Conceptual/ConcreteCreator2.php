@@ -4,7 +4,6 @@ namespace src\Php\Creational\FactoryPattern\Conceptual;
 require_once "../../../../../vendor/autoload.php";
 
 use src\Php\Creational\FactoryPattern\Conceptual\Interface\Product;
-use src\Php\Creational\FactoryPattern\Conceptual\ConcreteProduct2;
 
 /**
  * Note that the signature of the method still uses the abstract product

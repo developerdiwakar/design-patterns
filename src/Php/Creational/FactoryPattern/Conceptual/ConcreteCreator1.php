@@ -3,8 +3,6 @@ namespace src\Php\Creational\FactoryPattern\Conceptual;
 
 require_once "../../../../../vendor/autoload.php";
 
-
-use src\Php\Creational\FactoryPattern\Conceptual\Creator;
 use src\Php\Creational\FactoryPattern\Conceptual\Interface\Product;
 /**
  * Note that the signature of the method still uses the abstract product
