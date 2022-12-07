@@ -21,7 +21,7 @@ class ClientCode {
 		$this->output($this->creator);
 	}
 
-	public function output(Creator $creator){
+	public function output(){
 
 		echo "Client: I'm not aware of the creator's class, but it still works.\n"
 		        . $this->creator->someOperation();
