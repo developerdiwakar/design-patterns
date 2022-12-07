@@ -12,12 +12,10 @@ use src\Php\Creational\FactoryPattern\Conceptual\ConcreteCreator1;
 use src\Php\Creational\FactoryPattern\Conceptual\ConcreteCreator2;
 
 class ClientCode {
-	
-	private $creator;
 
-	public function __construct(Creator $creator){
-
-		$this->creator = $creator;
+	// Using constructor property promotion
+	public function __construct(private Creator $creator){
+		// $this->creator = $creator;
 		$this->output($this->creator);
 	}
 
