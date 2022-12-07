@@ -1,22 +1,21 @@
 <?php
-namespace src\Php\Creational\FactoryPattern\Conceptual;
+namespace src\Php\Creational\FactoryMethod\Conceptual;
 
 require_once "../../../../../vendor/autoload.php";
 
-use src\Php\Creational\FactoryPattern\Conceptual\Interface\Product;
-
+use src\Php\Creational\FactoryMethod\Conceptual\Interface\Product;
 /**
  * Note that the signature of the method still uses the abstract product
  * type, even though the concrete product is actually returned from the
  * method. This way the Creator can stay independent of concrete product
  * classes.
  */
-class ConcreteCreator2 extends Creator
+class ConcreteCreator1 extends Creator
 {
 	
 	public function factoryMethod(): Product
 	{
-		return new ConcreteProduct2();
+		return new ConcreteProduct1();
 	}
 
 }

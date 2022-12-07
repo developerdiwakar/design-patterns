@@ -1,5 +1,5 @@
 <?php
-namespace src\Php\Creational\FactoryPattern\Conceptual\Interface;
+namespace src\Php\Creational\FactoryMethod\Conceptual\Interface;
 
 interface Product 
 {

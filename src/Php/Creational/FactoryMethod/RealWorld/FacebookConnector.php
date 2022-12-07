@@ -1,14 +1,14 @@
 <?php
-namespace src\Php\Creational\FactoryPattern\RealWorld;
+namespace src\Php\Creational\FactoryMethod\RealWorld;
 
 /**
- * This Concrete Product implements the LinkedIn API.
- */
+ * This Concrete Product implements the Facebook API.
+*/
 require_once("../../../../../vendor/autoload.php");
 
-use src\Php\Creational\FactoryPattern\RealWorld\Contract\SocialNetworkConnector;
+use src\Php\Creational\FactoryMethod\RealWorld\Contract\SocialNetworkConnector;
 
-class LinkedInConnector implements SocialNetworkConnector
+class FacebookConnector implements SocialNetworkConnector
 {
     public function __construct(
         private string $login,

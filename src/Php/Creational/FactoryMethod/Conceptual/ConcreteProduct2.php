@@ -1,9 +1,9 @@
 <?php
-namespace src\Php\Creational\FactoryPattern\Conceptual;
+namespace src\Php\Creational\FactoryMethod\Conceptual;
 
 require_once "../../../../../vendor/autoload.php";
 
-use src\Php\Creational\FactoryPattern\Conceptual\Interface\Product;
+use src\Php\Creational\FactoryMethod\Conceptual\Interface\Product;
 /**
  * Concrete Products provide various implementations of the Product interface.
  */

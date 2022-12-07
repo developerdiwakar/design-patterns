@@ -1,5 +1,5 @@
 <?php
-namespace src\Php\Creational\FactoryPattern\RealWorld;
+namespace src\Php\Creational\FactoryMethod\RealWorld;
 
 /**
  * This Concrete Creator supports LinkeIn. Remember that this class also
@@ -8,8 +8,8 @@ namespace src\Php\Creational\FactoryPattern\RealWorld;
  */
 
 require_once "../../../../../vendor/autoload.php";
-use src\Php\Creational\FactoryPattern\RealWorld\SocialNetworkPoster;
-use src\Php\Creational\FactoryPattern\RealWorld\Contract\SocialNetworkConnector;
+use src\Php\Creational\FactoryMethod\RealWorld\SocialNetworkPoster;
+use src\Php\Creational\FactoryMethod\RealWorld\Contract\SocialNetworkConnector;
 
 
 class LinkedInPoster extends SocialNetworkPoster

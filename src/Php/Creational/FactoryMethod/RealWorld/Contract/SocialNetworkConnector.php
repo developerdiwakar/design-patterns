@@ -1,5 +1,5 @@
 <?php
-namespace src\Php\Creational\FactoryPattern\RealWorld\Contract;
+namespace src\Php\Creational\FactoryMethod\RealWorld\Contract;
 /**
  * The Product interface declares behaviors of various types of products.
 */

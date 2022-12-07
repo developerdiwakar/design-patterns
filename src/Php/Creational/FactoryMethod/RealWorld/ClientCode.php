@@ -1,5 +1,5 @@
 <?php 
-namespace src\Php\Creational\FactoryPattern\RealWorld;
+namespace src\Php\Creational\FactoryMethod\RealWorld;
 
 /**
  * The client code can work with any subclass of SocialNetworkPoster since it

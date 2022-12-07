@@ -1,5 +1,5 @@
 <?php
-namespace src\Php\Creational\FactoryPattern\Conceptual;
+namespace src\Php\Creational\FactoryMethod\Conceptual;
 
 require_once "../../../../../vendor/autoload.php";
 /**

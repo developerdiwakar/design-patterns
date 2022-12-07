@@ -1,5 +1,5 @@
 <?php
-namespace src\Php\Creational\FactoryPattern\RealWorld;
+namespace src\Php\Creational\FactoryMethod\RealWorld;
 
 /**
  * The Creator declares a factory method that can be used as a substitution for
@@ -13,7 +13,7 @@ namespace src\Php\Creational\FactoryPattern\RealWorld;
 */
 require_once "../../../../../vendor/autoload.php";
 
-use src\Php\Creational\FactoryPattern\RealWorld\Contract\SocialNetworkConnector;
+use src\Php\Creational\FactoryMethod\RealWorld\Contract\SocialNetworkConnector;
 
 abstract class SocialNetworkPoster 
 {

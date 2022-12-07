@@ -1,5 +1,5 @@
 <?php
-namespace src\Php\Creational\FactoryPattern\RealWorld;
+namespace src\Php\Creational\FactoryMethod\RealWorld;
 
 /**
  * This Concrete Creator supports Facebook. Remember that this class also
@@ -9,7 +9,7 @@ namespace src\Php\Creational\FactoryPattern\RealWorld;
 
 require_once "../../../../../vendor/autoload.php";
 
-use src\Php\Creational\FactoryPattern\RealWorld\Contract\SocialNetworkConnector;
+use src\Php\Creational\FactoryMethod\RealWorld\Contract\SocialNetworkConnector;
 
 
 class FacebookPoster extends SocialNetworkPoster
