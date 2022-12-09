@@ -1,5 +1,7 @@
 {
     "name": "developerdiwakar/design-patterns",
+    "description": "This repository is about design patterns coding examples in php.",
+        "license": "MIT",
     "autoload": {
         "psr-4": {
             "src\\": "./src"
